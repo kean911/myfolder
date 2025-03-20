@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: rgb(238, 216, 241);
+   
+}
+
+.download {
+
+    
+    display: flex;
+    padding: 30px 90px 500px ;
+    gap: 5px;
+    margin: 0;
+    flex-wrap: none;
+   
+
+    
+}
+
+.download{
+   flex-grow: 1;
+   
+}
+
+.download-img{
+    flex-grow: 1;
+   
+
+}
+
+
+
+
+.menu-container-mobile {
+
+    display: none;
+}
+
+
+
+#main-div {
+    padding: 20px;
+    align-items: end;
+    
+}
+
+.burgs-btn{
+    display: none;
+}
+
+
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: white;
+    z-index: 9998;
+
+    
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-menu a{
+text-decoration: none;
+color: black;
+}
+
+.nav-menu a:hover{
+   color: rgb(209, 153, 68);
+   font-weight: 200;
+   
+}
+
+.site-identity {
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.site-identity img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+
+.menu-btn {
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px 15px;
+}
+
+
+
+.section-2 {
+height: 900px;
+width: 100%;
+}
+
+.section-2-div-1 {
+    display: flex;
+    padding: 400px 5px;
+}
+
+.prog{
+
+    width: 400px;
+    height: 250px;
+    position: bottom left;
+padding: 75px 0px ;
+ align-items: end;
+}
+
+.works{
+    width: 400px;
+    height: 250px;
+    position: bottom right;
+padding: 72px 0px ;
+ align-items: center;
+
+}
